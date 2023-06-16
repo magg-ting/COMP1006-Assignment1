@@ -35,7 +35,7 @@
                     <label class="control-label col-sm-4" for="email">Email</label>
                     <div class="col-sm-6">
                         <!-- use client-side validation to ensure the email entered is in the correct format -->
-                        <input class="form-control" type="email" id="email" name="email" placeholder="firstname.lastname@abc.com" pattern="[\w]+.[\w]+@abc.com" required>
+                        <input class="form-control" type="email" id="email" name="email" placeholder="firstname.lastname@abc.com" pattern="[A-Za-z]+.[A-Za-z]+@abc.com" required>
                     </div>
                 </div>
                 <div class="form-group">
